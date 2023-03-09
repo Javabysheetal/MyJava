@@ -16,9 +16,7 @@ public class BankingApp {
 		scan = new Scanner(System.in);
 
 		do {
-			// while(true)
-			// {
-
+			
 			System.out.println("*********MENU***********");
 			System.out.println("1.Check Balance");
 			System.out.println("2.Deposit");
@@ -133,11 +131,8 @@ public class BankingApp {
 		String status;
 		if (rowCount > 0)
 			return status = "success";
-		// System.out.println("Amount Deposited successfully");
 		else
 			return status = "failure";
-		// System.out.println("Account number not exits");
-
 	}
 
 	private static int checkBalance(int accno) throws SQLException {
